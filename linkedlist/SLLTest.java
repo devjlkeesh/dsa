@@ -9,5 +9,7 @@ public class SLLTest {
         System.out.println(a);
         String upperCasedA =  a.toUpperCase(Locale.CHINA);
         System.out.println(upperCasedA);
+        SLL sll = new SLL<>();
+        System.out.println(sll);
     }
 }
